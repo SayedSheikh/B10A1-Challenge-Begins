@@ -8,3 +8,29 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Primary styles */
+.color-1 {
+  color: #0d1321;
+}
+.primary-btn-1 {
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #0d1321;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* nav style */
+nav {
+  margin: 36px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-btn {
+  border-radius: 8px;
+  padding: 17px 24px;
+}
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+}
