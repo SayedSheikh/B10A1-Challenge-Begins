@@ -53,6 +53,7 @@
   opacity: 0.7;
   text-align: center;
   margin-bottom: 48px;
+  line-height: 20px;
 }
 .main-para-2 {
   font-size: 16px;
@@ -61,6 +62,7 @@
   color: #0d1321;
   text-align: start;
   margin-bottom: 24px;
+  line-height: 20px;
 }
 .primary-btn-2 {
   padding: 12px 20px;
@@ -221,4 +223,23 @@ iframe {
   margin-bottom: 24px;
 }
 
-/* next terget style */
+/* next target style */
+
+.next-target {
+  margin-bottom: 49px;
+}
+.next-targets {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.target {
+  width: 1140px;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
