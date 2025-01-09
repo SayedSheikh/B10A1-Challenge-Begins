@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.azeret-mono-primary {
+  font-family: "Azeret Mono", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
