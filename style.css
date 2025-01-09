@@ -19,6 +19,38 @@
   opacity: 0.8;
   cursor: pointer;
   background-color: white;
+  font-family: "Azeret Mono", serif;
+}
+.main-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.main-para {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.primary-btn-2 {
+  padding: 12px 20px;
+  color: rgba(13, 19, 33, 1);
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #0d1321;
+  opacity: 0.7;
+  background-color: white;
+  font-family: "Azeret Mono", serif;
+}
+/* gradiant-1 */
+.gradiant-1 {
+  background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+}
+.gradiant-2 {
+  background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 /* nav style */
@@ -81,4 +113,71 @@ nav h2 {
 
 main {
   margin: 0 148px;
+}
+.explain {
+  padding: 80px 97px;
+  margin: 74px 0 90px 0;
+  border-radius: 16px;
+  background-color: rgba(13, 19, 33, 0.02);
+  text-align: center;
+}
+
+.explain h1 {
+  margin-bottom: 24px;
+}
+.explain p {
+  margin-bottom: 48px;
+}
+/* learnings style */
+
+.learning {
+  padding: 48px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.learning .image {
+  width: 260px;
+}
+.learning .disc {
+  width: 477px;
+  text-align: start;
+}
+.disc .learn-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
+  margin-bottom: 16px;
+}
+.disc .learn-para {
+  margin-bottom: 32px;
+}
+.middle {
+  padding-right: 110px;
+}
+
+/* inspiration section style */
+.inspiration {
+  margin: 90px 0 151px 0;
+}
+
+.inspiration h1 {
+  margin-bottom: 24px;
+}
+.inspiration p {
+  margin-bottom: 48px;
+}
+.video {
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+}
+iframe {
+  border-radius: 16px;
+}
+
+/* my target style */
+
+.my-target {
+  margin-bottom: 111px;
 }
